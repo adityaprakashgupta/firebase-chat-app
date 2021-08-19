@@ -1,13 +1,15 @@
 import firebase from 'firebase'
 
 const firebaseApp = firebase.initializeApp({
-    apiKey: "AIzaSyC_730ZmO8rOnJv02KEBnaydc5d9KlnwLA",
-    authDomain: "firechat-eb0f5.firebaseapp.com",
-    projectId: "firechat-eb0f5",
-    storageBucket: "firechat-eb0f5.appspot.com",
-    messagingSenderId: "855670603066",
-    appId: "1:855670603066:web:a9bcf2477bcbd1045da403",
-    measurementId: "G-GEJDXM80CV"
+    apiKey: "AIzaSyAu9eczRjNRxaLS6tGkPydfvAHniFwUELk",
+    authDomain: "apgchatapp.firebaseapp.com",
+    projectId: "apgchatapp",
+    storageBucket: "apgchatapp.appspot.com",
+    messagingSenderId: "564302431532",
+    appId: "1:564302431532:web:3cf8684506c70ae150d889",
+    measurementId: "G-VQZXCNBCZ5"
+
+
 })
 
 const db = firebaseApp.firestore()
